@@ -22,6 +22,6 @@ const welcome = props =>{
         fullName: propTypes.string,
          bio: propTypes.string,
          profession: propTypes.string,
-         handleClick: propTypes.string
+         handleClick: propTypes.func,
     }
 export default welcome
