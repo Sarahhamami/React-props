@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { propTypes } from 'react-bootstrap/esm/Image'
 import pic from './pic.jpg'
 
 const welcome = props =>{
@@ -17,5 +18,10 @@ const welcome = props =>{
        </div>
      )
     }
-
+    welcome.propTypes={
+        fullName: propTypes.string,
+         bio: propTypes.string,
+         profession: propTypes.string,
+         handleClick: propTypes.string
+    }
 export default welcome
